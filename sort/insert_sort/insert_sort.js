@@ -18,3 +18,6 @@ function insertSort(array) {
 // 기준이 되는 것보다 하나 아래 것 부터 탐색
 
 console.log(insertSort(data));
+
+// 이미 다 정렬이 된 상태라면 시간 복잡도가 O(n)
+// 선택정렬은 최선의 경우에도 O(n^2) 이므로 조금 더 낫다고 할 수 있겠다
